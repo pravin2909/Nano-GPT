@@ -11,12 +11,15 @@ NanoGPT is a minimal yet effective implementation of a GPT-based text generation
 
 ## **Project Structure**  
 .
-datset.py      # Defines the ShakespeareDataset class for tokenization and data loading
-model.py       # Implements the NanoGPT transformer model
-train.py       # Training and text generation script
-config.py      # Stores model hyperparameters and configurations
-README.md      # Project documentation
+dataset.py – Defines the ShakespeareDataset class for tokenization and data loading.
 
+model.py – Implements the NanoGPT transformer model.
+
+train.py – Contains the training and text generation script.
+
+config.py – Stores model hyperparameters and configurations.
+
+README.md – Provides project documentation.
 ## **Installation**  
 Ensure Python 3.8 or later is installed, then install dependencies:  
 
