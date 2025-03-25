@@ -10,7 +10,6 @@ NanoGPT is a minimal yet effective implementation of a GPT-based text generation
 - Implements checkpointing for resuming training from saved states.  
 
 ## **Project Structure**  
-```sh
 .
 ├── datset.py      # Defines the ShakespeareDataset class for tokenization and data loading
 ├── model.py       # Implements the NanoGPT transformer model
@@ -20,7 +19,7 @@ NanoGPT is a minimal yet effective implementation of a GPT-based text generation
 
 ## **Installation**  
 Ensure Python 3.8 or later is installed, then install dependencies:  
-```sh
+
 pip install torch transformers datasets tqdm tensorboard
 
 ##**Requirements**
